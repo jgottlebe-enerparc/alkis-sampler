@@ -8,7 +8,7 @@ A command-line tool to sample and print ALKIS-style parcel templates from a GeoP
 - Randomly sample parcel records using specific ALKIS field names
 - Outputs structured templates for further use
 
-## ⚙️ Installation
+## Installation
 
 #### 1. Install `pipx` (if not already installed)
 
