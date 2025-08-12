@@ -48,19 +48,3 @@ alkis-sampler mydata.gpkg
 ```bash
 alkis-sampler mydata.gpkg 12 GEMARKUNG FLUR FLST_Z FLST_N 5
 ```
-## Development
-
-This is a single-file CLI tool.
-
-Project structure:
-```
-alkis-sampler/
-├── alkis_sampler.py
-└── setup.py
-```
-
-To reinstall after changes:
-```bash
-pipx uninstall alkis-sampler
-pipx install .
-```
