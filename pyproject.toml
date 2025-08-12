@@ -1,0 +1,17 @@
+[build-systm]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alkis-sampler"
+version = "0.1.0"
+dependencies = [
+	"geopandas",
+	"fiona"
+]
+
+[tool.setuptools]
+py-modules = ["alkis_sampler"]
+
+[project.scripts]
+alkis-sampler = "alkis-sampler:main"
