@@ -24,7 +24,7 @@ python -m pipx ensurepath
 From the root of this repository:
 
 ```bash
-pipx install .
+pipx install git+https://github.com/jgottlebe-enerparc/alkis-sampler.git
 ```
 
 This makes the `alkis-sampler` command globally available.
